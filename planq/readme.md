@@ -18,26 +18,29 @@ Official documentation:
 - Docs planq network : https://docs.planq.network/
 
 ## Hardware requirements
-Same with any cosmos-SDK chain, the hardware requirements still same
-Minimum Hardware Requirements
-• 3x CPUs; the faster clock speed the better
-• 4GB RAM
-• 80GB Disk
-• Permanent Internet connection (traffic will be minimal during run node; 10Mbps will be plenty - for production at least 100Mbps is expected)
-Recommended Hardware Requirements
-• 4x CPUs; the faster clock speed the better
-• 8GB RAM
-• 200GB of storage (SSD or NVME)
+Same with any cosmos-SDK chain, check this out!
+
+Minimum Hardware Requirements : \
+• 3x CPUs; the faster clock speed the better \
+• 4GB RAM \
+• 80GB Disk \
 • Permanent Internet connection (traffic will be minimal during run node; 10Mbps will be plenty - for production at least 100Mbps is expected)
 
->> Thats requirements if you want run with local device, but my advice it will great if you rent a VPS and your server will online 24x7 <<
+
+Recommended Hardware Requirements : \
+• 4x CPUs; the faster clock speed the better \
+• 8GB RAM \
+• 200GB of storage (SSD or NVME) \
+• Permanent Internet connection (traffic will be minimal during run node; 10Mbps will be plenty - for production at least 100Mbps is expected)
+
+**Thats requirements if you want run with local device, but my advice it will great if you rent a VPS and your server will online 24x7**
 
 ## Node setup
 ### Manual Installation
 
 ### Set vars and port
 ```
-export MONIKER=YOUR MONIKER WITHOUT SPACE
+export MONIKER=YOUR_MONIKER (Note ; without space or symbol for easier installation)
 source ~/.bash_profile
 ```
 
