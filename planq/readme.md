@@ -1,7 +1,8 @@
 <p style="font-size:14px" align="right">
-<a href="https://t.me/dickydamara" target="_blank">Join our telegram <img src="https://user-images.githubusercontent.com/50621007/183283867-56b4d69f-bc6e-4939-b00a-72aa019d1aea.png" width="30"/></a>
-<a href="https://discordapp.com/users/392347017818669056" target="_blank">Join our discord <img src="https://user-images.githubusercontent.com/50621007/176236430-53b0f4de-41ff-41f7-92a1-4233890a90c8.png" width="30"/></a>
-<a href="https://snollygoster.xyz/" target="_blank">Visit our website <img src="https://raw.githubusercontent.com/dickydamaraa/explorer-1/master/public/logox.png" width="30"/></a>
+<a href="https://t.me/dickydamara" target="_blank">Contact me on Telegram <img src="https://user-images.githubusercontent.com/50621007/183283867-56b4d69f-bc6e-4939-b00a-72aa019d1aea.png" width="30"/></a>
+<a href="https://discordapp.com/users/392347017818669056" target="_blank">Contact me on Discord <img src="https://user-images.githubusercontent.com/50621007/176236430-53b0f4de-41ff-41f7-92a1-4233890a90c8.png" width="30"/></a>
+<a href="https://twitter.com/snollyygoster" target="_blank">Contact me on twitter <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Twitter-logo.svg/2491px-Twitter-logo.svg.png" width="30"/></a>
+<a href="https://snollygoster.xyz/" target="_blank">Visit my website <img src="https://raw.githubusercontent.com/dickydamaraa/explorer-1/master/public/logox.png" width="30"/></a>
 </p>
 
 
@@ -36,7 +37,13 @@ Recommended Hardware Requirements : \
 **Thats requirements if you want run with local device, but my advice it will great if you rent a VPS and your server will online 24x7**
 
 ## Node setup
-### Manual Installation
+### • Automatic Installation •
+You can setup your mainnet node in few minutes with this script below. Just follow the instructions.\
+Note : **I prefer on manual, so you can learn new experience to solve problem :) **
+```
+wget -O autoplanq.sh https://raw.githubusercontent.com/dickydamaraa/mainnet/main/planq/auto_planq.sh && chmod +x autoplanq.sh
+```
+### • Manual Installation •
 
 ### Set vars and port
 ```
