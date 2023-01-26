@@ -62,6 +62,11 @@ eval $(echo 'export PATH=$PATH:/usr/local/go/bin' | sudo tee /etc/profile.d/gola
 eval $(echo 'export PATH=$PATH:$HOME/go/bin' | tee -a $HOME/.profile)
 ```
 
+### Install Cosmovisor
+```
+go install cosmossdk.io/tools/cosmovisor/cmd/cosmovisor@v1.4.0
+```
+
 ### Download binaries
 ```
 cd $HOME
@@ -74,6 +79,9 @@ Build Binaries
 ```
 git checkout v1.0.3
 make install
+mkdir -p $HOME/.planqd/cosmovisor/genesis/bin
+mkdir -p ~/.planqd/cosmovisor/upgrades
+cp ~/go/bin/planqd ~/.planqd/cosmovisor/genesis/bin
 ```
   
 ### Config
