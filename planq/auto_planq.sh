@@ -21,9 +21,9 @@ CHAIN_DENOM="aplanq"
 BINARY="planqd"
 
 echo '================================================='
-echo -e "Node moniker: ${CYAN}$MONIKER${NC}"
-echo -e "Chain id:     ${CYAN}$CHAIN_ID${NC}"
-echo -e "Chain demon:  ${CYAN}$CHAIN_DENOM${NC}"
+echo -e "Node moniker: \e[1m\e[32m$MONIKER\e[0m"
+echo -e "Chain id:     \e[1m\e[32m$CHAIN_ID\e[0m"
+echo -e "Chain demon:  \e[1m\e[32m$CHAIN_DENOM\e[0m"
 echo '================================================='
 sleep 2
 
