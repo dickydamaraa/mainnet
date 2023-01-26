@@ -140,4 +140,4 @@ Start Planq
 sudo systemctl restart planqd && sudo journalctl -u planqd -f -o cat
 ```
 
-### After you finish and success with manual installation, you can continue on here (https://github.com/dickydamaraa/mainnet/new/main/planq) for the next step.
+### After you finish and success with manual installation, you can continue on here (https://github.com/dickydamaraa/mainnet/blob/main/planq/readme.md#step-after-installation-automatic-or-manual) for the next step create wallet and validator.
