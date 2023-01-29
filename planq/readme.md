@@ -41,7 +41,7 @@ Recommended Hardware Requirements : \
 You can setup your mainnet node in few minutes with this script below. Just follow the instructions.\
 Note : **I prefer on manual, so you can learn new experience to solve problem :) **
 ```
-wget -O autoplanq.sh https://raw.githubusercontent.com/dickydamaraa/mainnet/main/planq/auto_planq.sh && chmod +x autoplanq.sh
+wget -O autoplanq.sh https://raw.githubusercontent.com/dickydamaraa/mainnet/main/planq/auto_planq.sh && chmod +x autoplanq.sh && ./autoplanq.sh
 ```
 ### • Manual Installation •
 You can follow manual guide on here > (https://github.com/dickydamaraa/mainnet/blob/main/planq/manual_planq.md) if you try new experience and better prefer setting up node with manually
