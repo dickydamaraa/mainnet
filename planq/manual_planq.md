@@ -22,7 +22,7 @@ source ~/.bash_profile
 
 ### Update Packages and Depencies
 ```
-sudo apt update && sudo apt upgrade-y
+sudo apt update && sudo apt upgrade -y
 ```
 
 Install Depencies
